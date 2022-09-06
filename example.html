@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML example</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
@@ -18,32 +19,41 @@
         </ul>
       </nav>
     </header>
-
+     <br>
+  <br>
+  <br>
     <main>
-      <div id="about">
-        <h2>Information about the client</h2>
-        <table border="1">
-          <tr>
-            <th>Name</th>
-            <th>Last name</th>
-            <th>Occupation</th>
-            <th>Aim</th>
-          </tr>
-          <tr>
-            <td>Cheibi</td>
-            <td>Emna</td>
-            <td>Beginner Web developer</td>
-            <td>front-End developer (senior)</td>
-          </tr>
-        </table>
-        <br />
-        <img
-          src="/photos/developer web.jpg"
-          alt="this is a pic of web developer"
-        />
-      </div>
-      <div id="work">
-        <h2>Web Developer Duties & Responsibilities</h2>
+      <section id="about">
+        <h2>I- Information about the client</h2>
+        <section class="ab">
+          <table id='tab' border="1">
+            <tr>
+              <th>Name</th>
+              <td>Emna</td>
+            </tr>
+            <tr>
+              <th>Lastname</th>
+              <td>Cheibi</td>
+            </tr>
+            <tr>
+              <th>Occupation</th>
+              <td>Beginner Web developer</td>
+            </tr>
+            <tr>
+              <th>Aim</th>
+              <td>front-End developer (senior)</td>
+            </tr>
+          </table>
+          <img
+            src="photos/web developer.jpg"
+            alt="this is a pic of web developer"
+            width="400px"
+            height="300px"
+          />
+        </section>
+      </section>
+      <section id="work">
+        <h2>II- Web Developer Duties & Responsibilities</h2>
         <p>
           A web developer's job is to create websites. While their primary role
           is to ensure the website is visually appealing and easy to navigate,
@@ -67,7 +77,12 @@
           <li>Monitor website traffic</li>
           <li>Stay up-to-date on technology</li>
         </ol>
-        <img src="/photos/WORK.png" alt="web developer requirements" />
+        <img
+          src="photos/job requirements.jpg"
+          alt="web developer requirements"
+          width="600px"
+          height="500px"
+        />
         <h4>
           you can read more about this
           <a
@@ -91,26 +106,29 @@
           allowfullscreen
         ></iframe>
       </div>
-      <div id="resume">
-        <h2>Curriculum vitae</h2>
+      <section id="resume">
+        <h2>III- Curriculum vitae</h2>
         <!--this is an example of CV, I Didn't put mine-->
-        <img src="/photos/CV.png" alt="this is the CV" />
-      </div>
-      <div id="contact">
-        <h2>Contact</h2>
+        <img src="photos/CV.png" alt="this is the CV" />
+      </section>
+      <section id="contact">
+        <h2>IV- Contact</h2>
         <form>
-          <label for="name">Name</label>
+          <label for="name"> <b>Name</b></label>
           <input type="text" />
-          <label for="lastname">Last name</label>
+          <label for="lastname"> <b>Last name</b> </label>
           <input type="text" />
-          <label for="email">E-mail</label>
+          <label for="email"> <b>E-mail</b> </label>
           <input type="text" />
-          <label for="phoneNumber">Phone number</label>
+          <br>
+          <br>
+          <br>
+          <label for="phoneNumber"> <b>Phone number</b> </label>
           <input type="number" />
-          <label for="country">Country</label>
+          <label for="country"> <b>Country</b> </label>
           <select>
             <option value="algeria">Algeria</option>
-            <option value="egypt">Egypt</option>
+            <option value="egypt">Egypt </option>
             <option value="morocco">Morocco</option>
             <option value="tunisia">Tunisia</option>
             <option value="syria">Syria</option>
@@ -118,21 +136,22 @@
           <button type="submit">Submit</button>
         </form>
         <br />
-      </div>
+      </section>
     </main>
     <br />
-    <br /><br /><br />
+    <br />
 
     <footer>
       <form>
-        <label for="email">E-mail</label>
+        <label for="email"><b>E-mail</b></label>
         <input type="text" />
-        <label for="passeweord">Password</label>
+        <label for="passeweord"> <b>Password</b> </label>
         <input type="password" />
       </form>
       <br />
+      <br>
       <form>
-        <label for="suggestions">Suggestions</label>
+        <label for="suggestions"> <b>Suggestions</b> </label>
         <textarea placeholder="Write something..."></textarea>
         <button type="submit">Send</button>
       </form>

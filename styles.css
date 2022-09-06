@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+}
+nav {
+  background-color: aqua;
+  height: 25px;
+}
+#tab {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#tab tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+ul > li {
+  display: inline;
+  padding: 4px;
+  vertical-align: middle;
+}
+ul > li:hover {
+  background-color: rgb(114, 217, 239);
+  padding: 4px;
+}
+ol {
+  text-align: left;
+}
+#work p {
+  text-align: left;
+}
+ol > li:hover {
+  background-color: rgb(114, 217, 239);
+  width: 600px;
+}
+h2 {
+  color: darkcyan;
+  text-decoration: underline;
+}
+h3 {
+  color: darksalmon;
+  text-decoration: underline;
+}
+
+.ab table {
+  display: inline-block;
+  vertical-align: top;
+}
+
+section {
+  border: 2px solid black;
+}
+footer {
+  background-color: rgb(189, 229, 229);
+}
+label {
+  color: brown;
+}
+button {
+  border: 1px;
+  border-radius: 10px;
+  background-color: rgb(234, 189, 172);
+}
